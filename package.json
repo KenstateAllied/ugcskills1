@@ -1,0 +1,16 @@
+{
+  "name": "ugcskills1-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm --prefix backend start",
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend start",
+    "build": "npm --prefix frontend run build",
+    "install:all": "npm install --prefix backend --include=dev && npm install --prefix frontend --include=dev",
+    "postinstall": "npm run install:all"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
